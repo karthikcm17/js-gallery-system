@@ -8,7 +8,7 @@ const images = [
     { id: '07', title: 'River Flow', sub: 'Freshwater Streams', url: 'Assets/River.jpg' },
     { id: '08', title: 'Starry Night', sub: 'Astrophotography', url: 'Assets/Starry.jpg' },
     { id: '09', title: 'Autumn Leaves', sub: 'Seasonal Transitions', url: 'Assets/Autumn.jpg' },
-    { id: '10', title: 'Modern Tech', sub: 'Silicon Innovation', url: 'Assets/ModernA.jpg' }
+    { id: '10', title: 'Modern Tech', sub: 'Silicon Innovation', url: 'Assets/Modern.jpg' }
 ];
 
 const wrapper = document.getElementById('galleryWrapper');
