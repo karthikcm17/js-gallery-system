@@ -66,7 +66,7 @@ body {
 .col-info p {
     font-size: 0.9rem;
     margin-top: 5px;
-    
+
 }
 
 .badge-id {
@@ -82,4 +82,45 @@ body {
     border-radius: 50%;
     font-weight: bold;
     font-size: 0.8rem;
+}
+
+@media (max-width: 768px)
+{
+    body {
+        overflow-y: auto;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+
+    .gallery-container {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .img-col {
+        flex: none;
+        width: 100%;
+        height: 120px;
+        margin-bottom: 5px;
+    }
+
+    .img-col:hover,
+    .img-col:active {
+        flex: none;
+        height: 350px;
+        border-color: #6366f1;
+    }
+
+    .col-info {
+        width: 90%;
+        left: 15px;
+        bottom: 15px;
+    }
+
+    .col-info h3 {
+        font-size: 1.1rem;
+    }
 }
